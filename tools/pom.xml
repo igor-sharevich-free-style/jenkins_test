@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.16.0" timestamp="2020-11-27T15:46:26.458">
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/AddBankReceiptForPaymentHandler.cls">
+        <violation beginline="1" endline="119" begincolumn="27" endcolumn="2" rule="StdCyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+The class 'AddBankReceiptForPaymentHandler' has a Standard Cyclomatic Complexity of 5 (Highest = 10).
+</violation>
+        <violation beginline="22" endline="92" begincolumn="24" endcolumn="5" rule="StdCyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+The method 'addBankReceipts' has a Standard Cyclomatic Complexity of 10.
+</violation>
+        <violation beginline="22" endline="92" begincolumn="24" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The method 'addBankReceipts(List&lt;cpm__Payment__c&gt;)' has a cyclomatic complexity of 12.
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/BacsSendRemittanceEmailsBatch.cls">
+        <violation beginline="18" endline="18" begincolumn="79" endcolumn="80" rule="VariableNamingConventions" ruleset="Code Style" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_codestyle.html#variablenamingconventions" priority="3">
+Variables should start with a lowercase character, 'BC' starts with uppercase character.
+</violation>
+        <violation beginline="22" endline="22" begincolumn="51" endcolumn="52" rule="VariableNamingConventions" ruleset="Code Style" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_codestyle.html#variablenamingconventions" priority="3">
+Variables should start with a lowercase character, 'BC' starts with uppercase character.
+</violation>
+        <violation beginline="43" endline="43" begincolumn="17" endcolumn="22" rule="EmptyStatementBlock" ruleset="Error Prone" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_errorprone.html#emptystatementblock" priority="3">
+Avoid empty block statements.
+</violation>
+        <violation beginline="43" endline="43" begincolumn="50" endcolumn="51" rule="VariableNamingConventions" ruleset="Code Style" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_codestyle.html#variablenamingconventions" priority="3">
+Variables should start with a lowercase character, 'BC' starts with uppercase character.
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/BranchWeightingProcessChangesBatch.cls">
+        <violation beginline="24" endline="24" begincolumn="17" endcolumn="22" rule="EmptyStatementBlock" ruleset="Error Prone" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_errorprone.html#emptystatementblock" priority="3">
+Avoid empty block statements.
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/ClaimFeeHelper.cls">
+        <violation beginline="22" endline="130" begincolumn="24" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The method 'createPurchaseInvoice(List&lt;ClaimFeeHelper.ClaimFeeWrapper&gt;)' has a cyclomatic complexity of 11.
+</violation>
+        <violation beginline="133" endline="198" begincolumn="25" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The method 'allocateSupplierBalance(Set&lt;Id&gt;)' has a cyclomatic complexity of 10.
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/ConfirmationEmailController.cls">
+        <violation beginline="1" endline="165" begincolumn="30" endcolumn="1" rule="ExcessivePublicCount" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#excessivepubliccount" priority="3">
+This class has too many public methods and attributes
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/CourseApiTest.cls">
+        <violation beginline="2" endline="613" begincolumn="30" endcolumn="1" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The class 'CourseApiTest' has a total cyclomatic complexity of 42 (highest 8).
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/CourseCreateEnquiryUtility.cls">
+        <violation beginline="3" endline="223" begincolumn="30" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+The class 'CourseCreateEnquiryUtility' has a Standard Cyclomatic Complexity of 3 (Highest = 10).
+</violation>
+        <violation beginline="3" endline="223" begincolumn="30" endcolumn="1" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The class 'CourseCreateEnquiryUtility' has a total cyclomatic complexity of 43 (highest 16).
+</violation>
+        <violation beginline="12" endline="71" begincolumn="24" endcolumn="5" rule="StdCyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+The method 'createEnquiry' has a Standard Cyclomatic Complexity of 10.
+</violation>
+        <violation beginline="12" endline="71" begincolumn="24" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The method 'createEnquiry(Map&lt;String,String&gt;)' has a cyclomatic complexity of 16.
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/CourseFinderModel.cls">
+        <violation beginline="4" endline="152" begincolumn="38" endcolumn="1" rule="TooManyFields" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/CourseSearchUtility.cls">
+        <violation beginline="1" endline="657" begincolumn="30" endcolumn="1" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The class 'CourseSearchUtility' has a total cyclomatic complexity of 55 (highest 9).
+</violation>
+        <violation beginline="628" endline="646" begincolumn="50" endcolumn="5" rule="ExcessiveParameterList" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/OutboundBACSpaymentHelper.cls">
+        <violation beginline="17" endline="32" begincolumn="43" endcolumn="9" rule="ApexCRUDViolation" ruleset="Security" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_security.html#apexcrudviolation" priority="3">
+Validate CRUD permission before SOQL/DML operation
+</violation>
+        <violation beginline="93" endline="97" begincolumn="76" endcolumn="13" rule="ApexCRUDViolation" ruleset="Security" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_security.html#apexcrudviolation" priority="3">
+Validate CRUD permission before SOQL/DML operation
+</violation>
+        <violation beginline="103" endline="103" begincolumn="13" endcolumn="40" rule="ApexCRUDViolation" ruleset="Security" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_security.html#apexcrudviolation" priority="3">
+Validate CRUD permission before SOQL/DML operation
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/PRLineItem_PreventDeletion_TDTM.cls">
+        <violation beginline="10" endline="20" begincolumn="51" endcolumn="5" rule="ExcessiveParameterList" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/PractitionerBandProcessChangesBatch.cls">
+        <violation beginline="23" endline="23" begincolumn="17" endcolumn="22" rule="EmptyStatementBlock" ruleset="Error Prone" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_errorprone.html#emptystatementblock" priority="3">
+Avoid empty block statements.
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/PractitionerFeeRateProcessChangesBatch.cls">
+        <violation beginline="29" endline="29" begincolumn="17" endcolumn="22" rule="EmptyStatementBlock" ruleset="Error Prone" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_errorprone.html#emptystatementblock" priority="3">
+Avoid empty block statements.
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/ReconcilePaymentsBatchHelper.cls">
+        <violation beginline="3" endline="189" begincolumn="27" endcolumn="2" rule="StdCyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+The class 'ReconcilePaymentsBatchHelper' has a Standard Cyclomatic Complexity of 4 (Highest = 21).
+</violation>
+        <violation beginline="7" endline="92" begincolumn="24" endcolumn="5" rule="StdCyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+The method 'processBatchReceiptReportItems' has a Standard Cyclomatic Complexity of 21.
+</violation>
+        <violation beginline="7" endline="92" begincolumn="24" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The method 'processBatchReceiptReportItems(List&lt;Batch_Receipt_Report_Item__c&gt;)' has a cyclomatic complexity of 21.
+</violation>
+        <violation beginline="7" endline="92" begincolumn="24" endcolumn="5" rule="NcssMethodCount" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#ncssmethodcount" priority="3">
+The method processBatchReceiptReportItems() has an NCSS line count of 61
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/ReconcilePaymentsBatchTest.cls">
+        <violation beginline="2" endline="224" begincolumn="15" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+The class 'ReconcilePaymentsBatchTest' has a Standard Cyclomatic Complexity of 6 (Highest = 10).
+</violation>
+        <violation beginline="15" endline="205" begincolumn="17" endcolumn="5" rule="StdCyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+The method 'testSetup' has a Standard Cyclomatic Complexity of 10.
+</violation>
+        <violation beginline="15" endline="205" begincolumn="17" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The method 'testSetup()' has a cyclomatic complexity of 10.
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/SESSION_RevertToProvisional_TDTM.cls">
+        <violation beginline="22" endline="38" begincolumn="18" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The method 'compareNewListOfSessionsWithOldListAndSetSessionsToProvisional(List&lt;Session__c&gt;,List&lt;Session__c&gt;)' has a cyclomatic complexity of 12.
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/SalesInvoice_Rollups_TDTM_Test.cls">
+        <violation beginline="174" endline="202" begincolumn="25" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_codestyle.html#methodnamingconventions" priority="3">
+Method name does not begin with a lower case character.
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/SendHTMLEmailPlugin.cls">
+        <violation beginline="3" endline="208" begincolumn="27" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+The class 'SendHTMLEmailPlugin' has a Standard Cyclomatic Complexity of 6 (Highest = 15).
+</violation>
+        <violation beginline="6" endline="103" begincolumn="34" endcolumn="5" rule="StdCyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#stdcyclomaticcomplexity" priority="3">
+The method 'invoke' has a Standard Cyclomatic Complexity of 15.
+</violation>
+        <violation beginline="6" endline="103" begincolumn="34" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The method 'invoke(List&lt;SendHTMLEmailPlugin.Request&gt;)' has a cyclomatic complexity of 18.
+</violation>
+        <violation beginline="6" endline="103" begincolumn="34" endcolumn="5" rule="NcssMethodCount" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#ncssmethodcount" priority="3">
+The method invoke() has an NCSS line count of 68
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/SessionFeeHelper.cls">
+        <violation beginline="3" endline="178" begincolumn="27" endcolumn="2" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The class 'SessionFeeHelper' has a total cyclomatic complexity of 43 (highest 9).
+</violation>
+        <violation beginline="31" endline="49" begincolumn="25" endcolumn="5" rule="ExcessiveParameterList" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists
+</violation>
+        <violation beginline="75" endline="87" begincolumn="45" endcolumn="5" rule="ExcessiveParameterList" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/Session_Rollups_TDTM_Test.cls">
+        <violation beginline="23" endline="48" begincolumn="17" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_codestyle.html#methodnamingconventions" priority="3">
+Method name does not begin with a lower case character.
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/TestBatchReceiptReportItemBuilder.cls">
+        <violation beginline="84" endline="84" begincolumn="13" endcolumn="42" rule="ApexCRUDViolation" ruleset="Security" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_security.html#apexcrudviolation" priority="3">
+Validate CRUD permission before SOQL/DML operation
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/TestDataFactory.cls">
+        <violation beginline="2" endline="888" begincolumn="30" endcolumn="1" rule="CyclomaticComplexity" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#cyclomaticcomplexity" priority="3">
+The class 'TestDataFactory' has a total cyclomatic complexity of 90 (highest 8).
+</violation>
+        <violation beginline="2" endline="888" begincolumn="30" endcolumn="1" rule="ExcessivePublicCount" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#excessivepubliccount" priority="3">
+This class has too many public methods and attributes
+</violation>
+        <violation beginline="2" endline="888" begincolumn="30" endcolumn="1" rule="TooManyFields" ruleset="Design" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+    </file>
+    <file name="/media/jenkinsdata/home/workspace/Parentforce Pipeline/Create Build/force-app/main/default/classes/UpdateMarketingPreferencesInCareFlowTest.cls">
+        <violation beginline="18" endline="35" begincolumn="17" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_apex_codestyle.html#methodnamingconventions" priority="3">
+Method name does not begin with a lower case character.
+</violation>
+    </file>
+</pmd>
