@@ -9,7 +9,7 @@
           <configuration>
             <rulesets>
               <!-- A rule set, that comes bundled with PMD -->
-              <ruleset>/category/java/bestpractices.xml</ruleset>
+              <ruleset>/category/apex/bestpractices.xml</ruleset>
             </rulesets>
           </configuration>
         </plugin>
