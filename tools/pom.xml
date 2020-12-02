@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="Custom Rules"
-    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
-
-    <description>
-        My custom rules
-    </description>
-
-    <rule ref="category/apex/design.xml" />
-
-
-    <!-- Your rules will come here -->
-
-</ruleset>
+<project>
+    <reporting>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-pmd-plugin</artifactId>
+          <version>3.14.0</version>
+          <configuration>
+            <rulesets>
+              <!-- A rule set, that comes bundled with PMD -->
+              <ruleset>/category/java/bestpractices.xml</ruleset>
+            </rulesets>
+          </configuration>
+        </plugin>
+      </plugins>
+    </reporting>
+</project>
